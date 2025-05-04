@@ -1,5 +1,5 @@
 numbers = [4,1,5,6,6]
 
-total = sum(numbers)
+total = max(numbers)
 
 print(total)

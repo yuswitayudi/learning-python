@@ -3,3 +3,5 @@ print(angka)
 
 if angka:
     print("bing.com")
+else:
+    print("salah")
