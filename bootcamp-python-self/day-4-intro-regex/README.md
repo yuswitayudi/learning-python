@@ -30,11 +30,3 @@ Regular expressions are invaluable for:
 * **Complex Text Searching:** Identifying patterns in configuration files, command output, etc.
 * **Data Validation:** Ensuring data conforms to specific formats (e.g., IP addresses).
 * **Automation Scripting:** Making decisions and extracting information based on complex text patterns.
-
-## Next Steps:
-
-Our next session (Day 5) will shift focus to **Lists in Python**, a fundamental data structure for working with collections of items. We will return to regular expressions in later sessions to delve into more advanced patterns and techniques.
-
-## How to Use This:
-
-Save this content as a file named **`README.md`** in your repository to document your initial understanding of Python's regular expression capabilities from Day 4.
