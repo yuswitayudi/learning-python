@@ -17,7 +17,7 @@ fi
 
 # Prompt the user for the current day number
 
-last_day=$(ls bootcamp-python-self | sort | awk -F '-' '{print $2}' | tail -1)
+last_day=$(ls bootcamp-python-self | sort -n -t '-' -k 2 | awk -F '-' '{print $2}' | tail -1)
 current_day=$((last_day + 1))
 echo "Next day number is: $current_day"
 # Validate the day number (optional, but good practice)
