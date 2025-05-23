@@ -16,8 +16,10 @@ if [ ! -d "$base_folder" ]; then
 fi
 
 # Prompt the user for the current day number
-read -p "Enter the current day number (e.g., 5): " current_day
 
+last_day=$(ls bootcamp-python-self | sort | awk -F '-' '{print $2}' | tail -1)
+current_day=$((last_day + 1))
+echo "Next day number is: $current_day"
 # Validate the day number (optional, but good practice)
 if ! [[ "$current_day" =~ ^[0-9]+$ ]]; then
   echo "Error: Invalid day number. Please enter a positive integer."
