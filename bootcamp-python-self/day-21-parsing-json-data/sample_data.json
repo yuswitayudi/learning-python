@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "age": 30,
+      "is_active": true,
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipcode": "10001"
+      },
+      "hobbies": ["reading", "swimming", "coding"]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "age": 25,
+      "is_active": false,
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipcode": "90210"
+      },
+      "hobbies": ["painting", "hiking"]
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "age": 35,
+      "is_active": true,
+      "address": {
+        "street": "789 Pine Rd",
+        "city": "Chicago",
+        "state": "IL",
+        "zipcode": "60601"
+      },
+      "hobbies": ["cooking", "gardening", "photography", "traveling"]
+    }
+  ],
+  "metadata": {
+    "total_users": 3,
+    "last_updated": "2024-01-15T10:30:00Z",
+    "version": "1.0"
+  }
+}
+
+

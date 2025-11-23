@@ -1,0 +1,48 @@
+{
+  "location": {
+    "city": "San Francisco",
+    "country": "USA",
+    "coordinates": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    }
+  },
+  "current_weather": {
+    "temperature": 18.5,
+    "unit": "celsius",
+    "humidity": 65,
+    "pressure": 1013.25,
+    "description": "Partly cloudy",
+    "wind": {
+      "speed": 12.5,
+      "direction": "NW",
+      "unit": "km/h"
+    }
+  },
+  "forecast": [
+    {
+      "date": "2024-01-16",
+      "high": 20,
+      "low": 15,
+      "description": "Sunny",
+      "precipitation_chance": 10
+    },
+    {
+      "date": "2024-01-17",
+      "high": 19,
+      "low": 14,
+      "description": "Cloudy",
+      "precipitation_chance": 30
+    },
+    {
+      "date": "2024-01-18",
+      "high": 17,
+      "low": 12,
+      "description": "Rainy",
+      "precipitation_chance": 80
+    }
+  ],
+  "last_updated": "2024-01-15T14:30:00Z"
+}
+
+

@@ -1,0 +1,21 @@
+# JSON Parsing Examples Requirements
+# Basic requirements for running the JSON parsing examples
+
+# Core Python libraries (included with Python)
+# json - Built-in JSON support
+# urllib - Built-in HTTP client
+# datetime - Built-in date/time support
+# typing - Built-in type hints support
+
+# Optional libraries for enhanced functionality
+# jsonschema>=4.0.0  # For JSON schema validation
+# requests>=2.25.0   # For more advanced HTTP requests
+# pandas>=1.3.0      # For data analysis and manipulation
+# numpy>=1.21.0      # For numerical operations
+
+# Development and testing
+# pytest>=6.0.0      # For running tests
+# black>=21.0.0       # For code formatting
+# flake8>=3.9.0       # For linting
+
+
