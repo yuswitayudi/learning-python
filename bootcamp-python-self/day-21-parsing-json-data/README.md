@@ -37,3 +37,24 @@ This material bridges the gap after Day 20 (HTTP Requests), ensuring you can use
     * **Monitoring Health:** Parsing JSON from a `/health` endpoint to check the `"status"` field.
     * **Cloud Automation:** Parsing the complex JSON response after creating a resource to extract the unique **Resource ID** or **IP Address**.
     * **Structured Logging:** Reading JSON logs to filter events based on the value of the `"level"` or `"timestamp"` keys.
+  
+Output of code
+--------------
+```
+Fetching data from: yuswitayudi ----
+Username: yuswitayudi
+Name: Yudi Tata
+Location: Indonesia
+Public Repositories: 23
+Followers: 15
+--------------------
+Fetching data from: google ----
+Username: google
+Name: Google
+Location: United States of America
+Public Repositories: 2812
+Followers: 63126
+--------------------
+Fetching data from: nonexistent-user ----
+Error: User 'nonexistent-user' not found on GitHub.
+```
