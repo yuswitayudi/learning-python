@@ -1,0 +1,8 @@
+name = "wallet-service"
+port = 8080
+owner = "yudi"
+allowed_hosts = ["localhost", "127.0.0.1", "::1"]
+
+[database]
+host = "db.prod.local"
+timeout_seconds = 30
